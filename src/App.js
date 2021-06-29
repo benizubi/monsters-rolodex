@@ -5,7 +5,11 @@ import { Component } from 'react';
 // classes offers more functionality.
 class App extends Component {
   constructor() {
+    super();
 
+    this.state = {
+      String: "",
+    }
   }
   render() {
     return (
