@@ -8,7 +8,7 @@ class App extends Component {
     super();
 
     this.state = {
-      String: "Hello Beni"
+      string: "Hello Beni"
     }
   }
   render() {
@@ -16,7 +16,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p> { } </p>
+          <p> {this.state.string} </p>
           <button> Change text </button>
         </header>
       </div>
