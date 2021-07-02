@@ -17,7 +17,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p> {this.state.string} </p>
-          <button> Change text </button>
+          <button> Change text here </button>
         </header>
       </div>
     );
