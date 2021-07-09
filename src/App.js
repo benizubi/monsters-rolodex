@@ -7,7 +7,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      string: "Hello Beni"
+      string: "Hello Beni Zubi"
     }
   }
   render() {
