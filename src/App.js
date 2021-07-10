@@ -7,6 +7,11 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
+      monsters: [
+        {
+
+        }
+      ]
       string: "Hello Beni Zubi"
     }
   }
