@@ -6,13 +6,19 @@ import { Component } from 'react';
 class App extends Component {
   constructor() {
     super();
+
     this.state = {
       monsters: [
         {
-
+          name: 'Frankenstein'
+        },
+        {
+          name: 'Beni Zubi'
+        },
+        {
+          name: ' Hello Beni Zubi'
         }
       ]
-      string: "Hello Beni Zubi"
     }
   }
   render() {
