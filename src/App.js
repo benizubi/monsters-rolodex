@@ -13,10 +13,10 @@ class App extends Component {
           name: 'Frankenstein'
         },
         {
-          name: 'Beni Zubi'
+          name: 'Dracula'
         },
         {
-          name: ' Hello Beni Zubi'
+          name: ' Zombie'
         }
       ]
     }
@@ -24,11 +24,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p> {this.state.string} </p>
-          <button onClick={() => this.setState({ string: "Hello Beni" })}> Change text here </button>
-        </header>
+        {
+          this.state.monsters.map()
+        }
       </div>
     );
   }
