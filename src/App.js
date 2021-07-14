@@ -1,9 +1,9 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Component } from 'react';
 // using class instead of function to do the same thing.
 // classes offers more functionality.
-class App extends Component {
+class App extends React.Component {
   constructor() {
     super();
 
@@ -15,7 +15,7 @@ class App extends Component {
         },
         {
           name: 'Dracula',
-          id: 'c'
+          id: 'b'
         },
         {
           name: 'Zombie ',
