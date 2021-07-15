@@ -11,16 +11,17 @@ class App extends React.Component {
       monsters: [
         {
           name: 'Vampire',
-          id: 'a'
+          id: 'x'
         },
         {
           name: 'Dracula',
-          id: 'b'
+          id: 'y'
         },
         {
           name: 'Zombie ',
-          id: 'c'
-        }
+          id: 'z'
+        },
+        String: 'Hi';
       ]
     }
   }
