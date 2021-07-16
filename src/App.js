@@ -21,7 +21,10 @@ class App extends React.Component {
           name: 'Zombie ',
           id: 'z'
         },
-        String: 'Hi';
+        {
+          String: 'Hi',
+          id: 'az'
+        }
       ]
     }
   }
